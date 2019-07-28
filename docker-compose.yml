@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    image: imkalirajan/safeboda_app
+    restart: always
+    build:
+      context: ./safeboda_app
+      dockerfile: Dockerfile
+    volumes:
+      - ./safeboda_app:/safeboda_app
+    ports:
+      - "3000:3000"
+    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+
