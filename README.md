@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Run docker-compose up
 
-#View Running docker app in browser
+* View Running docker app in browser
 
 URL: http://localhost:3000/
 
