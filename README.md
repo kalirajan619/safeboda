@@ -26,7 +26,7 @@ Minikube
 ```
 
 
-* Building Docker Image for change in image name modify docker-compose.yaml file
+* [Building Docker Image for change in image name modify docker-compose.yaml file]
 
 docker-compose build 
 
