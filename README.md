@@ -1,12 +1,29 @@
-Safeboda Hello world app is builded using Ruby on Rails
+# Safeboda Hello world app 
 
-#Running Docker Container
+App is builded using Ruby on rails 
 
-docker-compose up
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+Run docker-compose up
 
 #View Running docker app in browser
 
 URL: http://localhost:3000/
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Install Docker 
+Kubectl
+Minikube
+```
+
+## Deployment
+
 
 #Building Docker Image for change in image name modify docker-compose.yaml file
 
