@@ -26,21 +26,21 @@ Minikube
 ```
 
 
-Building Docker Image for change in image name modify docker-compose.yaml file
+* Building Docker Image for change in image name modify docker-compose.yaml file
 
 docker-compose build 
 
-Moving Image to Docker Hub
+* Moving Image to Docker Hub
 
 docker push imkalirajan/safeboda-app
 
-Kubernetes deploy
+* Kubernetes deploy
 
 Run sh k8deploy.sh
 
-For Image change modify client-pod.yaml in k8safeboda directory
+* For Image change modify client-pod.yaml in k8safeboda directory
 
-k8deploy.sh script contains all pod port bindings and Loadbalancer Spec Config
+* k8deploy.sh script contains all pod port bindings and Loadbalancer Spec Config
 
-k8deploy script will automatically start minikube service url  
+* k8deploy script will automatically start minikube service url  
 ```
