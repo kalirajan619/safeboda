@@ -23,6 +23,7 @@ Minikube
 ```
 
 ## Deployment
+```
 
 
 #Building Docker Image for change in image name modify docker-compose.yaml file
@@ -42,3 +43,4 @@ Run sh k8deploy.sh
 #k8deploy.sh script contains all pod port bindings and Loadbalancer Spec Config
 
 #k8deploy script will automatically start minikube service url  
+```
