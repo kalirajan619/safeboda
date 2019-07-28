@@ -24,17 +24,17 @@ Minikube
 
 ## Deployment
 
-* [Building Docker Image for change in image name modify docker-compose.yaml file]
+* Building Docker Image for change in image name modify docker-compose.yaml file
 
-docker-compose build 
+	docker-compose build 
 
 * Moving Image to Docker Hub
 
-docker push imkalirajan/safeboda-app
+	docker push imkalirajan/safeboda-app
 
 * Kubernetes deploy
 
-Run sh k8deploy.sh
+	Run sh k8deploy.sh
 
 * For Image change modify client-pod.yaml in k8safeboda directory
 
